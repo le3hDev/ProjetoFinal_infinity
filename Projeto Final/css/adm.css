@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+        
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { 
+    font-family: "Rubik", sans-serif; 
+    background-color: black;
+    color: antiquewhite;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(236, 0, 0);
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+.title {
+    margin-left: 50px;
+    color: antiquewhite;
+}
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin: 60px;
+    justify-content: center;
+}
+.navegation {
+    display: flex;
+}
+.navegation li {
+    margin: 50px;
+    justify-content: flex-end;
+    list-style: none;
+}
+.navegation li a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: large;
+}
+.navegation li a:hover {
+    background-color: gray;
+}
+main {
+    flex: 1;
+    padding: 1rem;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+form label {
+    margin: 0.5rem 0 0.2rem 0;
+}
+form input, form select, form button {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+table, th, td {
+    border: 1px solid white;
+}
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+footer {
+    color: grey;
+    text-align: center;
+    padding: 1rem 0;   
+
+}

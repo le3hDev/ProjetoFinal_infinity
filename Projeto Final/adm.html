@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adm</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/adm.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo"><img src="logo.png" alt=""></div>
+            <div class="title"><h2>BEM VINDOS</h2></div>
+        </div>
+        <nav>
+            <ul class="navegation">
+                <li><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2W6ToavZ65cbpdu8qx3vw6WuXcTTHRwM56g&usqp=CAU">Sobre</a></li>
+                <li><a href="https://media.istockphoto.com/id/625877394/pt/foto/replica-of-bat-signal-device-at-yorkshire-cosplay-convention.jpg?s=612x612&w=0&k=20&c=_wg977hIs0-oNUVFMDscqWTq75eZZ0-UEfb_38mVRuI=">Serviços</a></li>
+                <li><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmckts-i6czVgk6j-csS4zglZnWuKTt-uKeBB1Ti7pQLqi9KOKqtbmLq3sdpsXO3WnFkA&usqp=CAU">Contato</a></li>
+                <li><a href="index.html">SAIR</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Adicionar / Editar Recursos do inventário</h2>
+            <form id="resource-form">
+                <input type="hidden" id="resource-id">
+                <label for="resource-name">Nome:</label>
+                <input type="text" id="resource-name" required>
+                <label for="resource-type">Tipo:</label>
+                <select id="resource-type" required>
+                    <option value="Veículo">Veículo</option>
+                    <option value="Equipamento">Equipamento</option>
+                    <option value="Dispositivo de Segurança">Dispositivo de Segurança</option>
+                </select>
+                <button type="submit">Salvar</button>
+            </form>
+            <h3>Inventário</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Tipo</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="resource-list">
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        Wayne Industries® - 2024
+        by Le3h Dev
+    </footer>
+    <script src="./JS/adm.js"></script>
+</body>
+</html>
