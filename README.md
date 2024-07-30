@@ -2,12 +2,9 @@
 
 Plataforma  de Gerenciamento para Indústrias Wayne
 
-## 🚀 Começando
 
 
 ## 🛠️ Construído com
-
-Mencione as ferramentas que você usou para criar seu projeto
 
 * HTML
 * CSS
